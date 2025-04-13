@@ -1,0 +1,162 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+/* Featured Games Section */
+#featured {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#featured .games {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.game {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.game img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* News Section */
+#news {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+}
+
+#news ul {
+    list-style-type: none;
+}
+
+#news li {
+    margin-bottom: 10px;
+}
+
+#news a {
+    color: #333;
+    text-decoration: none;
+}
+
+#news a:hover {
+    text-decoration: underline;
+}
+
+/* About Section */
+#about {
+    padding: 40px 20px;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+}
+
+#about p {
+    font-size: 1.2rem;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #111;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #444;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
